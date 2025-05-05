@@ -1,0 +1,35 @@
+# Qt Creator build directories
+build-*/
+
+# Qt Creator session, user-specific files
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.autosave
+
+# Object files and libraries
+*.o
+*.obj
+*.so
+*.a
+*.lo
+*.la
+
+# Generated Makefiles and project files
+Makefile*
+*.moc
+*.qrc
+moc_*.cpp
+qrc_*.cpp
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.DS_Store
+
+# CMake build artifacts (if any)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
